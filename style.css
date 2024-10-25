@@ -4,6 +4,7 @@ body, html {
   overflow: auto;
   position: relative;
   font-family: 'Montserrat';
+  box-sizing: border-box;
 }
 
 .left, .right {
