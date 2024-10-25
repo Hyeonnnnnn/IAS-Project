@@ -1,15 +1,16 @@
-html, body {
+body, html {
   height: 100%;
   margin: 0;
+  overflow: hidden;
+  position: relative;
   font-family: 'Montserrat';
 }
 
 .left, .right {
-  position: absolute;
+  position: fixed; /* Fix background position relative to the viewport */
   top: 0;
-  bottom: 0;
   width: 100%;
-  min-height: 100%; /* Extend background based on content height */
+  height: 100vh; /* Full viewport height */
   z-index: -1;
 }
 
