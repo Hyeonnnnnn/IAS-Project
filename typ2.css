@@ -13,7 +13,6 @@ body, html {
     background-size: cover; /* Optional: Adjust to fit the image to the full screen */
     background-position: center; /* Optional: Center the image */
   }
-  }
   .card {
     border: none;
     padding: 40px;
