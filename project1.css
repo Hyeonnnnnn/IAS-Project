@@ -103,7 +103,7 @@
                 font-size: 24px;
             }
         }
-    .homeBtn{
+.homeBtn{
     /* Position the link in the bottom-right */
     position: fixed;
     top: 25px; /* Adjust distance from bottom */
@@ -111,5 +111,5 @@
 }
 .homeBtn:hover{
     color: white;
-} 
+}
         
