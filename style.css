@@ -94,6 +94,7 @@ body, html {
   background-color: #D9D9D9;
   border-radius: 40px;
   padding: 30px; /* Increased padding for better spacing */
+  box-sizing: border-box;
   width: 700px; /* Updated width */
   height: 310px; /* Updated height */
   position: absolute;
