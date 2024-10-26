@@ -21,44 +21,44 @@
             <h6 class="mb-3">Billing Address</h6>
             <div class="col-md-4 ">
                 <label for="billName" class="form-label">Firstname</label>
-                <input pattern = “[A-Za-z\s]+” type="text" class="form-control" id="billName" placeholder="Firstname" required>
+                <input type="text" pattern="[A-Za-z\s]+" class="form-control" id="billName" placeholder="Firstname" required>
                 <span class="error" id="billingError"></span>
             </div>
             <div class="col-md-4">
               <label for="billSurname" class="form-label">Surname</label>
-              <input pattern = “[A-Za-z\s]+” type="text" class="form-control" id="billSurname" placeholder="Surname" required>
+              <input type="text" class="form-control" id="billSurname" placeholder="Surname" required>
               <span class="error" id="billingError"></span>
           </div>
           <div class="col-md-4">
             <label for="billMname" class="form-label">Middle Name</label>
-            <input pattern = “[A-Za-z\s]+” type="text" class="form-control" id="billMname" placeholder="Middle Name" >
+            <input type="text" class="form-control" id="billMname" placeholder="Middle Name" >
            
         </div>
         <div class="col-md-12">
           <label for="billAdd" class="form-label">Address</label>
-          <input pattern = “[A-Za-z\s]+” type="text" class="form-control" id="billAdd" placeholder="Billing Address" required>
+          <input type="text" class="form-control" id="billAdd" placeholder="Billing Address" required>
           <span class="error" id="billingError"></span>
       </div>
       <div class="col-md-5">
         <label for="billCountry" class="form-label">Country</label>
-        <input pattern = “[A-Za-z\s]+” type="text" class="form-control" id="billCountry" placeholder="Country" required>
+        <input type="text" class="form-control" id="billCountry" placeholder="Country" required>
         <span class="error" id="billingError"></span>
     </div>
     <div class="col-md-4">
       <label for="billCity" class="form-label">City/Municipality</label>
-      <input pattern = “[A-Za-z\s]+” type="text" class="form-control" id="billCity" placeholder="City/Municipality" required>
+      <input type="text" class="form-control" id="billCity" placeholder="City/Municipality" required>
       <span class="error" id="billingError"></span>
   </div>
   <div class="col-md-3">
     <label for="billZip" class="form-label">Zip Code</label>
-    <input type="number" inputmode="numeric" class="form-control" id="billZip" placeholder="Zip Code"  maxlength="4" required>
+    <input inputmode="numeric" class="form-control" id="billZip" placeholder="Zip Code"  maxlength="4" required>
     <span class="error" id="billingError"></span>
 </div>
 <div class="col-md-5">
     <label for="billContact" class="form-label">Contact Number</label>
-    <input type="number" class="form-control" id="billContact" placeholder="Contact Number" pattern="^09[0-9]{9}$" required maxlength="11">
+    <input type="text" class="form-control" id="billContact" placeholder="Contact Number" pattern="^09[0-9]{9}$" required maxlength="11">
     <span class="error" id="billingContactError"></span>
-</div> 
+</div>
 
 
 
@@ -66,42 +66,42 @@
             <h6 class="mt-4 mb-3">Shipping Address</h6>
             <div class="col-md-4 ">
                 <label for="shipName" class="form-label">Firstname</label>
-                <input pattern = “[A-Za-z\s]+” type="text" class="form-control" id="shipName" placeholder="Firstname" required>
+                <input type="text" class="form-control" id="shipName" placeholder="Firstname" required>
                 <span class="error" id="shippingError"></span>
             </div>
             <div class="col-md-4">
               <label for="shipSurname" class="form-label">Surname</label>
-              <input pattern = “[A-Za-z\s]+” type="text" class="form-control" id="shipSurname" placeholder="Surname" required>
+              <input type="text" class="form-control" id="shipSurname" placeholder="Surname" required>
               <span class="error" id="shippingError"></span>
           </div>
           <div class="col-md-4">
             <label for="shipMname" class="form-label">Middle Name</label>
-            <input pattern = “[A-Za-z\s]+” type="text" class="form-control" id="shipMname" placeholder="Middle Name" >
+            <input type="text" class="form-control" id="shipMname" placeholder="Middle Name" >
             
         </div>
         <div class="col-md-12">
           <label for="shipAdd" class="form-label">Address</label>
-          <input pattern = “[A-Za-z\s]+” type="text" class="form-control" id="shipAdd" placeholder="Shipping Address" required>
+          <input type="text" class="form-control" id="shipAdd" placeholder="Shipping Address" required>
           <span class="error" id="shippingError"></span>
       </div>
       <div class="col-md-5">
         <label for="shipCountry" class="form-label">Country</label>
-        <input pattern = “[A-Za-z\s]+” type="text" class="form-control" id="shipCountry" placeholder="Country" required>
+        <input type="text" class="form-control" id="shipCountry" placeholder="Country" required>
         <span class="error" id="shippingError"></span>
     </div>
     <div class="col-md-4">
       <label for="shipCity" class="form-label">City/Municipality</label>
-      <input pattern = “[A-Za-z\s]+” type="text" class="form-control" id="shipCity" placeholder="City/Municipality" required>
+      <input type="text" class="form-control" id="shipCity" placeholder="City/Municipality" required>
       <span class="error" id="shippingError"></span>
   </div>
   <div class="col-md-3">
     <label for="shipZip" class="form-label">Zip Code</label>
-    <input type="number" inputmode="numeric" class="form-control" id="shipZip" placeholder="Zip Code"  maxlength="4" required>
+    <input inputmode="numeric" class="form-control" id="shipZip" placeholder="Zip Code"  maxlength="4" required>
     <span class="error" id="shippingError"></span>
 </div>
 <div class="col-md-5">
     <label for="shipContact" class="form-label">Contact Number</label>
-    <input type="number" class="form-control" id="shipContact" placeholder="Contact Number" pattern="^09[0-9]{9}$" maxlength="11" required>
+    <input type="text" class="form-control" id="shipContact" placeholder="Contact Number" pattern="^09[0-9]{9}$" maxlength="11" required>
     <span class="error" id="shippingContactError"></span>
 </div>
            <div class="mb-3 ms-3 form-check" style="margin-top: 5px;">
@@ -152,7 +152,7 @@
                     <input type="radio" id="paypal" name="paymentMethod" value="paypal">
                     <label for="paypal">
                         <div style="margin-left: 15px;">
-                            <img src="./assets/paypal.svg" alt="PayPal Logo" style="width: 35px; height: 25px;"> Paypal
+                            <img src="/assets/ico/paypal.svg" alt="PayPal Logo" style="width: 35px; height: 25px;"> Paypal
                         </div>
                     </label>
                     <!-- PayPal Payment -->
@@ -169,7 +169,7 @@
                     <input type="radio" id="credit-card" name="paymentMethod" value="credit-card">
                     <label for="credit-card">
                         <div style="margin-left: 15px;">
-                            <img src="./assets/credit.svg" alt="CreditCard Logo" style="width: 35px; height: 25px;"> Credit Card
+                            <img src="/assets/ico/credit.svg" alt="CreditCard Logo" style="width: 35px; height: 25px;"> Credit Card
                         </div>
                     </label>
                     <!-- Credit Card Payment -->
@@ -366,7 +366,7 @@
                     <input type="radio" id="COD" name="paymentMethod" value="COD">
                     <label for="COD">
                         <div style="margin-left: 12px;">
-                            <img src="./assets/cod.jpg" alt="COD Logo" style="width: 35px; height: 25px;"> Cash on Delivery
+                            <img src="/assets/ico/cod.jpg" alt="COD Logo" style="width: 35px; height: 25px;"> Cash on Delivery
                         </div>
                     </label>
                     <!-- COD method -->
@@ -404,17 +404,14 @@
                     </div>
                 </div>
             </div>
-            
 
         
         </form>
     </div>
-    <a href="index.html" class="homeBtn">
-      <i class="fa-solid fa-house fa-3x" style="color: #007bff;"></i>
-    </a>
+    <a href=".././index.html" class="homeBtn"><i class="fa-solid fa-house fa-3x" style="color:#007bff"></i></a>
    <!-- Bootstrap JS -->
    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
-    <script src="project2.js"></script>
+  <script src="./project2.js"></script>
  </body>
 
 </html>
